@@ -6,25 +6,25 @@
   </head>
   <body>
     <h1 class="title">Tip Calculator</h1>
-    <form class="bill-calculator-form" action="">
+    <form id="calculator-form" class="bill-calculator-form">
       <div class="label-input-group">
         <label class="input-label" for="food_1">Food 1: $</label>
-        <input class="input-field" name="food_1" type="text"/>
+        <input id="food_1" class="input-field" name="food_1" type="text"/>
       </div>
       <div class="label-input-group">
         <label class="input-label" for="food_2">Food 2: $</label>
-        <input class="input-field" name="food_2" type="text"/>
+        <input id="food_2" class="input-field" name="food_2" type="text"/>
       </div>
       <div class="label-input-group">
         <label class="input-label" for="food_3">Food 3: $</label>
-        <input class="input-field" name="food_3" type="text"/>
+        <input id="food_3" class="input-field" name="food_3" type="text"/>
       </div>
       <div class="label-input-group">
         <label class="input-label" for="total">Total: $</label>
-        <input class="input-field readonly" name="total" readonly/>
+        <input id="total-field" class="input-field" name="total"/>
       </div>
         <div class="label-input-group">
-        <input type="submit" value="Calculate Total"/>
+        <button type="button" onclick="calculateTotalCost()">Calculate Total</button>
     </form>
   </body>
 </html>
