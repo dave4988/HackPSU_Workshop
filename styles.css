@@ -1,0 +1,25 @@
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.bill-calculator-form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.label-input-group {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.input-label {
+
+}
+
+.input-field {
+  width: 50px;
+}
