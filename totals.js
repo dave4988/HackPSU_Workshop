@@ -5,3 +5,7 @@ function calculateTotalCost() {
   total += parseFloat(document.getElementById('food_3').value);
   document.getElementById('total-field').value = total;
 }
+
+function calculateTotalCostWithTip() {
+  // TODO:  Calculate cost of bill with tip included
+}
