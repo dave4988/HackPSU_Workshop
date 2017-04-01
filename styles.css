@@ -22,4 +22,12 @@
 
 .input-field {
   width: 50px;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  border-color: #3498db;
 }
