@@ -22,10 +22,12 @@
       <!-- TODO:  Add tip field for user to pick % tip to give -->
       <div class="label-input-group">
         <label class="input-label" for="total">Total: $</label>
-        <input id="total-field" class="input-field" name="total"/>
+        <input id="total-field" class="input-field readonly" name="total" readonly/>
       </div>
         <div class="label-input-group">
-        <button class="submit-button" type="button" onclick="calculateTotalCost()">Calculate Total</button>
+        <button class="submit-button" type="button" onclick="calculateTotalCost()">
+          Calculate Total
+        </button>
     </form>
   </body>
 </html>

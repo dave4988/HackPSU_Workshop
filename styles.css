@@ -23,6 +23,11 @@
 .input-field {
   width: 50px;
   border-radius: 5px;
+  text-align: right;
+}
+
+.readonly {
+  border: none;
 }
 
 .submit-button {
