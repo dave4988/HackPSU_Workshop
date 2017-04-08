@@ -1,7 +1,6 @@
 .title {
-  width: 100%;
-  text-align: center;
   color: red;
+  font-size: 72px;
 }
 
 .bill-calculator-form {
